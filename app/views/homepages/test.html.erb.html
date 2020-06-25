@@ -17,18 +17,39 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="col-sm-9 logo">
+        <div class="col-sm-3 logo">
             <a class="navbar-brand" href="/">CALIFORNIA AUTO CENTER</a>
         </div>
 
-        
-        <div class="col-sm-1">
+        <div class="col-xs-5 links">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="maintenances">Maintenances</a>
+              </li>&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link" href="repairs">Repairs</a>
+              </li>&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link" href="about_us">About Us</a>
+              </li>&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link" href="deals">Special Deals</a>
+              </li>&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link" href="http://www.tirebuyer.com/?account=376572">Shop Tires</a>
+              </li>&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link" href="contact_us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-2">
           <div id="yelp-biz-badge-rrc-_NGFY_9iw4gAMGIj6tvYwQ"><a href="http://yelp.com/biz/california-auto-center-millbrae?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank">Check out California Auto Center on Yelp</a></div>    <script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-_NGFY_9iw4gAMGIj6tvYwQ";g.src = "//yelp.com/biz_badge_js/en_US/rrc/_NGFY_9iw4gAMGIj6tvYwQ.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
         </div>
         <div class="col-sm-2 phone">
-          <div class="collapse navbar-collapse justify-content-end">
-            <a class="navbar-brand" href="#">(650)692-5222</a>
-          </div>
+          <a class="navbar-brand" href="#">(650)692-5222</a>
         </div>
       </nav>
 
@@ -37,32 +58,8 @@
       <% end %>
       <% if alert.present? %>  
         <p class="alert alert-danger"><%= alert %></p>
-      <% end %>    
+      <% end %>  
 
-    <div class="button">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-sm-2">
-            <a href="maintenances" class="btn btn-primary custom" role="button">Maintenances</a>
-          </div>
-          <div class="col-12 col-sm-2">
-            <a href="repairs" class="btn btn-primary custom" role="button">Repairs</a>
-          </div>
-          <div class="col-12 col-sm-2">
-            <a href="about_us" class="btn btn-primary custom" role="button">About Us</a>
-          </div>
-          <div class="col-12 col-sm-2">
-            <a href="deals" class="btn btn-primary custom" role="button">Special Deals</a>
-          </div>
-          <div class="col-12 col-sm-2">
-            <a href="http://www.tirebuyer.com/?account=376572" class="btn btn-primary custom" role="button">Shop Tires</a>
-          </div>
-          <div class="col-12 col-sm-2">
-            <a href="contact_us" class="btn btn-primary custom" role="button">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </div>
     <hr />
 
     <br class="clear" />
