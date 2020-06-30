@@ -29,6 +29,10 @@ class HomepagesController < ApplicationController
   def careers
   end
 
+  def disclaimer
+  end
+
   def deals_form
   end
+
 end

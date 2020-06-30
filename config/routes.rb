@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'registrations/update'
+  devise_for :members, :controllers => {:registrations => "registrations"}
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   
   root 'homepages#index'
@@ -11,6 +13,7 @@ Rails.application.routes.draw do
   get 'terms', to:'homepages#terms'
   get 'privacy', to:'homepages#privacy'
   get 'careers', to:'homepages#careers'
+  get 'disclaimer', to:'homepages#disclaimer'
   get 'deals_form', to:'homepages#deals_form'
   
 
