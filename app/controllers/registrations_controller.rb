@@ -15,7 +15,7 @@ class RegistrationsController < Devise::RegistrationsController
     if change_password 
       is_valid = @member.update_with_password(new_params)
     else
-      @member.update_without_password(new_params)
+      is_valid = @member.update_without_password(new_params)
     end 
 
     if is_valid
